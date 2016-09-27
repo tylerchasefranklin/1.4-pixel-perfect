@@ -1,6 +1,5 @@
 *{
   box-sizing: border-box;
-  font-family: 'Oswald', sans-serif;
 }
 
 body{
@@ -8,7 +7,8 @@ body{
   padding: 0;
   background-color: black;
   line-height: 1.75;
-    text-align: left;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container{
@@ -20,8 +20,6 @@ header{
   position: relative; /* for absolute children */
   height: 523px;
   background-image: url('http://unsplash.it/1300/523/');
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Oswald', sans-serif;
 }
 
 header:before{
@@ -68,30 +66,85 @@ h1 {
   font-size: 60px;
   line-height: 1.25;
   margin-top: 58px;
+  letter-spacing: 1.5px;
+}
+
+.author-icon {
+  padding-left: 9px;
+}
+
+.author-line {
+  margin-top: -52px;
+  font-size: 13px;
+  margin-left: 5px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.submission {
+  display: inline-block;
+  margin-left: 20px;
 }
 
 .middle {
   width: 1300px;
   margin: 0 auto;
   background-color: white;
-  height: 1000px;
+  height: 1150px;
 }
 
 .left {
-  width: 600px;
+  width: 625px;
   height: 1000px;
-  background-color: green;
   position: absolute;
-  margin-left: 165px;
+  margin-left: 160px;
 }
 
 .left-icon {
   border-radius: 50%;
+  vertical-align: middle;
 }
+
 
 .article {
   font-size: 15px;
+  letter-spacing: 1.4px;
+  margin-top: 20px;
+}
 
+.break {
+  border-left: 3px solid gray;
+  text-align: left;
+  margin-left: 4px;
+  margin-top: 23px;
+  height: 58px;
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  vertical-align: bottom;
+  padding-left: 13px;
+  font-weight: lighter;
+  padding-top: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.article2 {
+  margin-top: 27px;
+}
+
+.article3 {
+  margin-top: -2px;
+}
+
+.article4 {
+  margin-top: 25px;
+}
+
+.options {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin-left: -40px;
+  margin-top: -10px;
 }
 
 .sub-date {
@@ -101,18 +154,66 @@ h1 {
 
 .right {
   width: 450px;
-  background-color: blue;
   height: 1000px;
   margin-left: 850px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.right-author {
+  margin-left: 110px;
+  margin-top: 81px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.social-media {
+  list-style: none;
+  display: inline-block;
+  margin-left: -85px;
+  font-size: 14px;
+  margin-top: -7px;
+}
+
+.twitter {
+  margin-left: -8px;
+  margin-right: 15px;
+  float: left;
+}
+
+.facebook {
+  margin-left: 5px;
+  margin-right: 15px;
+  float: left;
+}
+
+.instagram {
+  margin-left: 10px;
+  float: left;
+}
+
+.author-name {
+  display: block;
+  font-size: 16px;
+  margin-top: 3px;
 }
 
 .right-icon {
   border-radius: 50%;
 }
 
+.adver {
+  margin-left: 12px;
+  margin-top: 28px;
+}
+
+.about-ad {
+  text-align: center;
+  font-size: 14px;
+}
+
 .bottom {
   margin: 0 auto;
-  background-color: red;
   width: 1300px;
 }
 
@@ -120,14 +221,44 @@ h1 {
 
 .popular-posts {
   height: 150px;
-  background-color: purple;
   text-align: center;
   font-size: 65px;
   padding: 10px;
+  margin-top: -137px;
+  border: 1px solid gray;
+}
+
+.fa-comment-o, .fa-cloud-upload, .fa-share-square-o {
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+
+}
+
+.bottom-buttons {
+  background-color: lightgray;
+  display: inline-block;
+  padding-bottom: 2px;
+  padding-top: 5px;
+  margin-right: 40px;
+  width: 100px;
+  font-size: 12px;
+  height: 30px;
+  text-align: center;
+  color: white;
+}
+
+.share {
+  background-color: blue;
 }
 
 .other-posts {
   height: 330px;
+  margin-top: -10px;
 
 }
 
@@ -139,41 +270,56 @@ h1 {
 
 .links {
   width: 1340px;
-  margin-top: 0;
+  margin-top: -3px;
   margin-left: -40px;
   display: inline-block;
   height: 330px;
   list-style: none;
   font-size: 25px;
-  text-align: center;
+  vertical-align: text-bottom;
 }
 
+.text {
+  display: inline-block;
+  margin-top: 275px;
+  margin-left: 10px;
+  color: white;
+  font-size: 30px;
+}
 
+.text1 {
+  display: inline-block;
+  margin-top: 250px;
+  margin-left: 10px;
+  color: white;
+  font-size: 33px;
+  line-height: 1;
+}
 
 .box1 {
   width: 25%;
-  height: 330px;
+  height: 332px;
   float:right;
-  background-image: url(http://unsplash.it/324/330);
+  background-image: url(http://unsplash.it/324/332);
 }
 
 .box2 {
   width: 25%;
-  height: 330px;
+  height: 332px;
   float: right;
-  background-image: url(http://unsplash.it/325/330);
+  background-image: url(http://unsplash.it/325/332);
 }
 
 .box3 {
   width: 25%;
-  height: 330px;
+  height: 332px;
   float:right;
-  background-image: url(http://unsplash.it/326/330);
+  background-image: url(http://unsplash.it/326/332);
 }
 
 .box4 {
   width: 25%;
-  height: 330px;
+  height: 332px;
   float: right;
-  background-image: url(http://unsplash.it/327/330);
+  background-image: url(http://unsplash.it/327/332);
 }
